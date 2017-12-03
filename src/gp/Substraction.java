@@ -1,6 +1,6 @@
 package gp;
 
-public class Substraction extends AbstractFunction {
+public class Substraction extends AbstractOperation {
 
 	public Substraction(Node left, Node right) {
 		super(left, right);

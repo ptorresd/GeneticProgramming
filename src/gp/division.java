@@ -1,6 +1,6 @@
 package gp;
 
-public class division extends AbstractFunction {
+public class division extends AbstractOperation {
 
 	public division(Node left, Node right) {
 		super(left, right);

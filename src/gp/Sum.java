@@ -1,6 +1,6 @@
 package gp;
 
-public class Sum extends AbstractFunction {
+public class Sum extends AbstractOperation {
 
 	public Sum(Node left, Node right) {
 		super(left, right);

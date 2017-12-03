@@ -1,6 +1,6 @@
 package gp;
 
-public class Multiplication extends AbstractFunction {
+public class Multiplication extends AbstractOperation {
 
 	public Multiplication(Node left, Node right) {
 		super(left, right);
