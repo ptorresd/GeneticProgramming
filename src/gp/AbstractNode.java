@@ -10,10 +10,13 @@ public abstract class AbstractNode implements Node {
 		this.root=root;
 	}
 	
+	public abstract Node clone();
+	
 	@Override
-	public void updateSize(){
-		size=1;
+	public Node getRoot(){
+		return root;
 	}
+	
 	@Override
 	public int getSize() {
 		return size;
