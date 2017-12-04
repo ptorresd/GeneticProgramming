@@ -19,7 +19,7 @@ public class Main {
 			pop.setPopulation(pop.newGeneration());
 		}
 		System.out.println("");
-		System.out.println("Resultados:");
+		System.out.println("Puntos entre -50 y 50:");
 		GeneticProgram best=pop.getBest();
 		for(int i=0;i<range;i++){
 			System.out.print(input[i][0]+" ");
@@ -34,6 +34,9 @@ public class Main {
 		}
 		System.out.println("");
 		String[] s= {"x"};
+		System.out.println("Error final:");
+		System.out.println(pop.getBest().getFiness());
+		System.out.println("Funcion:");
 		System.out.println(pop.getBest().toString(s));
 	}
 	static double function(double x){
